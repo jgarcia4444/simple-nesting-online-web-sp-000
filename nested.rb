@@ -128,4 +128,8 @@ def adding_to_dennis
         }
      }
 
+		 dennis = programmer_hash[:dennis_ritchie]
+		 dennis[:languages] << "Assembly"
+		 programmer_hash
+
 end
